@@ -1,5 +1,5 @@
 <?php
-include '../config.php';
+include './config.php';
 /**
  * 
  * Conexao com o Banco de Dados. 
