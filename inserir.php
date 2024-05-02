@@ -22,5 +22,7 @@ $email = $_POST['email'];
 $sql = "INSERT INTO clientes (nome,email) VALUES('$nome','$email')";
 $result = mysqli_query($conn,$sql);
 if($result == true){
-    echo "<p style='color:green;'>Cadastrado com sucesso!!!</p>";
+    echo "<p style='color:green;'>$nome .Cadastrado com sucesso!!!</p>";
 }
+?>
+ <a href="index.php"><input style="margin-top: 5px;" type="button" value="Voltar"></a>
